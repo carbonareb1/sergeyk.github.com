@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Sergey Karayev</title>
+        <description>Sergey Karayev is mostly a CS grad student.</description>
+        <link>http://sergeykarayev.com</link>
+        <atom:link href="http://sergeykarayev.com/feed.xml" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>Recognition on a Budget</title>
+                <description>Features have different costs and different classes benefit from different features.
+A multi-class recognition system must select them intelligently to maximize performance under a cost budget.
+</description>
+                <pubDate>Tue, 11 Jun 2013 00:00:00 -0700</pubDate>
+                <link>http://sergeykarayev.com/recognition-on-a-budget</link>
+                <guid isPermaLink="true">http://sergeykarayev.com/recognition-on-a-budget</guid>
+            </item>
+        
+            <item>
+                <title>Rayleigh: Multi-color image search</title>
+                <description>We present an open-source system for quickly searching large image collections by multiple colors given as a palette, or by color similarity to a query image.</description>
+                <pubDate>Sun, 12 May 2013 00:00:00 -0700</pubDate>
+                <link>http://sergeykarayev.com/rayleigh-multicolor-search</link>
+                <guid isPermaLink="true">http://sergeykarayev.com/rayleigh-multicolor-search</guid>
+            </item>
+        
+            <item>
+                <title>Setting up a development environment on Mac OS X 10.8 Mountain Lion</title>
+                <description>Concise notes on setting up a development environment on OS X 10.8 for statistical computing and web development.</description>
+                <pubDate>Wed, 08 Aug 2012 00:00:00 -0700</pubDate>
+                <link>http://sergeykarayev.com/setting-up-mountain-lion</link>
+                <guid isPermaLink="true">http://sergeykarayev.com/setting-up-mountain-lion</guid>
+            </item>
+        
+            <item>
+                <title>CabFriendly</title>
+                <description>We have developed a cloud-based mobile web application to match users who request similar trips and would like to share a cab. The application is hosted on Amazon&#39;s EC2 service and combines several open-source frameworks with social networking (Facebook), mapping, and location-awareness (Google) APIs.
+</description>
+                <pubDate>Tue, 13 Dec 2011 00:00:00 -0800</pubDate>
+                <link>http://sergeykarayev.com/cabfriendly</link>
+                <guid isPermaLink="true">http://sergeykarayev.com/cabfriendly</guid>
+            </item>
+        
+            <item>
+                <title>Depth-informed Object Detection</title>
+                <description>Using the Microsoft Kinect, we gather a large dataset of indoor crowded scenes.
+We investigate ways to unify state-of-the-art object detection systems and improve them with depth information.
+</description>
+                <pubDate>Fri, 11 Nov 2011 00:00:00 -0800</pubDate>
+                <link>http://sergeykarayev.com/depth-informed-object-detection</link>
+                <guid isPermaLink="true">http://sergeykarayev.com/depth-informed-object-detection</guid>
+            </item>
+        
+            <item>
+                <title>Probabilistic Local Image Features</title>
+                <description>Our method for additively decomposing local image patches, LDA-SIFT, shows best performance on a novel transparent object recognition dataset.
+We recursively extend the model to multiple layers and successfully apply it to general object classification.
+</description>
+                <pubDate>Mon, 20 Jun 2011 00:00:00 -0700</pubDate>
+                <link>http://sergeykarayev.com/probabilistic-decomposition-of-local-features</link>
+                <guid isPermaLink="true">http://sergeykarayev.com/probabilistic-decomposition-of-local-features</guid>
+            </item>
+        
+            <item>
+                <title>Attentional Object Detection: introductory slides</title>
+                <description>Motivation for and some lit review related to the idea of attentional object detection--not looking for everything everywhere.</description>
+                <pubDate>Thu, 24 Mar 2011 00:00:00 -0700</pubDate>
+                <link>http://sergeykarayev.com/attentional-object-detection</link>
+                <guid isPermaLink="true">http://sergeykarayev.com/attentional-object-detection</guid>
+            </item>
+        
+            <item>
+                <title>Self-organizing sparse codes: VS 265 course project</title>
+                <description>The biological motivation for sparse coding also suggests that the learned receptive field elements should be organized spatially.
+We investigate ways of enforcing a topography over the learned codes in a locally self-organizing map approach.
+</description>
+                <pubDate>Sun, 12 Dec 2010 00:00:00 -0800</pubDate>
+                <link>http://sergeykarayev.com/self-organizing-sparse-codes</link>
+                <guid isPermaLink="true">http://sergeykarayev.com/self-organizing-sparse-codes</guid>
+            </item>
+        
+            <item>
+                <title>Jupiter album art recreation</title>
+                <description>Recreation of a cool album cover image (Jupiter by Starfucker) using Processing.</description>
+                <pubDate>Mon, 16 Aug 2010 00:00:00 -0700</pubDate>
+                <link>http://sergeykarayev.com/jupiter</link>
+                <guid isPermaLink="true">http://sergeykarayev.com/jupiter</guid>
+            </item>
+        
+            <item>
+                <title>Virtual Zoom</title>
+                <description>Undergrad research project with [Steve Seitz][ss].
+With our application, the user can zoom in on a distant landmark using other people’s photographs.
+Our system relies on a 3D scene modeling back end that computes the viewpoint of each photograph in an unordered large photo collection.
+</description>
+                <pubDate>Sat, 06 Jun 2009 00:00:00 -0700</pubDate>
+                <link>http://sergeykarayev.com/virtual-zoom</link>
+                <guid isPermaLink="true">http://sergeykarayev.com/virtual-zoom</guid>
+            </item>
+        
+    </channel>
+</rss>
