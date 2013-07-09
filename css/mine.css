@@ -1762,6 +1762,7 @@ ul.projects p{font-size:85%;margin-bottom:0;}
 ul.projects p+p{margin-top:18px;margin-top:1.125rem;}
 ul.projects li img{float:left;}
 ul.projects li div{margin-left:200px;}
+ul.projects.notes li div{margin-left:140px;}
 ul.projects li.nothumb div{margin-left:0;}
 @media screen and (max-width:420px){ul.projects li img{float:none;} ul.projects li div{margin-left:0;}}aside{font-size:small;margin-left:780px;position:absolute;width:180px;}
 @media screen and (max-width:840px){aside{margin-left:0;margin-bottom:24px;margin-bottom:1.5rem;position:relative;width:auto;}}p,pre,code{max-width:720px;}
