@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="Sergey Karayev is mostly a CS grad student.">
     <meta name="author" content="Sergey Karayev">
@@ -16,7 +16,7 @@
     
 
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
     
 
@@ -40,8 +40,6 @@
     }
     init_mathjax();
     </script>
-
-    <!-- <script type="text/javascript" src="https://www.google.com/jsapi"></script> -->
 
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -67,10 +65,8 @@
 
             <div class="content">
                 
-                    <p>I am a PhD candidate in CS at UC Berkeley, working with Trevor Darrell.
-<br />
-I want to solve hard problems in artificial intelligence, particularly for computer vision.
-<br />
+                    <p>I am a PhD candidate in CS at UC Berkeley, working with Trevor Darrell.<br />
+I want to solve hard problems in artificial intelligence, particularly for computer vision.<br />
 More details are in my <a href="/sergey_karayev_cv.pdf">CV</a>.</p>
 
 <h2 id="projects">Projects</h2>
@@ -268,12 +264,12 @@ We recursively extend the model to multiple layers and successfully apply it to 
 <div>
 <h3>
 
-<span><a href="/storing-numpy-data-in-mongodb">Storing numpy data in mongodb</a></span>
+<span><a href="/storing_numpy_array_in_mongo">Storing numpy data in mongodb</a></span>
 
 </h3>
 <p>
-08 Jul 2013<br />
-Showing that cPickle protocol=2 is fastest for sotring numpy arrays into mongodb.
+09 Jul 2013<br />
+Showing that cPickle protocol=2 is fastest for storing numpy arrays into mongodb.
 
 </p>
 </div>
@@ -398,31 +394,6 @@ Our system relies on a 3D scene modeling back end that computes the viewpoint of
 
 </ul>
 
-<!--
-<hr />
-
-<div id="feed"></div>
-
-<script type="text/javascript">
-google.load("feeds", "1");
-
-function initialize() {
-  var feed = new google.feeds.Feed("http://firstpersonstories.tumblr.com/rss");
-  feed.load(function(result) {
-    if (!result.error) {
-      var container = document.getElementById("feed");
-      for (var i = 0; i < result.feed.entries.length; i++) {
-        var entry = result.feed.entries[i];
-        var div = document.createElement("div");
-        div.appendChild(document.createTextNode(entry.title));
-        container.appendChild(div);
-      }
-    }
-  });
-}
-google.setOnLoadCallback(initialize);
-</script>
--->
 
                 
             </div>

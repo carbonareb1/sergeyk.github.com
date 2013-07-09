@@ -10,12 +10,12 @@
                 <title>&lt;p&gt;Storing numpy data in mongodb&lt;/p&gt;
 </title>
                 
-                    <description>Showing that cPickle protocol=2 is fastest for sotring numpy arrays into mongodb.
+                    <description>Showing that cPickle protocol=2 is fastest for storing numpy arrays into mongodb.
 </description>
                 
-                <pubDate>Mon, 08 Jul 2013 00:00:00 -0700</pubDate>
-                <link>http://sergeykarayev.com/storing-numpy-data-in-mongodb</link>
-                <guid isPermaLink="true">http://sergeykarayev.com/storing-numpy-data-in-mongodb</guid>
+                <pubDate>Tue, 09 Jul 2013 00:00:00 -0700</pubDate>
+                <link>http://sergeykarayev.com/storing_numpy_array_in_mongo</link>
+                <guid isPermaLink="true">http://sergeykarayev.com/storing_numpy_array_in_mongo</guid>
             </item>
         
             <item>
