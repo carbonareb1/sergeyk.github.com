@@ -10,13 +10,38 @@
     <title>Sergey Karayev | Attentional Object Detection: introductory slides</title>
 
     <link rel="stylesheet" media="all" href="/css/mine.css" />
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
 
     
+
+    <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+    <script type="text/javascript">
+    init_mathjax = function() {
+        if (window.MathJax) {
+            // MathJax loaded
+            MathJax.Hub.Config({
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+                },
+                displayAlign: 'left', // Change this to 'center' to center equations.
+                "HTML-CSS": {
+                    styles: {'.MathJax_Display': {"margin": 0}}
+                }
+            });
+            MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+        }
+    }
+    init_mathjax();
+    </script>
+
+    <!-- <script type="text/javascript" src="https://www.google.com/jsapi"></script> -->
 
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -97,7 +122,7 @@
                 <a href="http://www.linkedin.com/in/sergeykarayev"><i class="icon-fixed-width icon-linkedin"></i></a> &middot;
                 <a href="https://twitter.com/sergeykarayev"><i class="icon-fixed-width icon-twitter"></i></a> &middot;
                 <a href="http://iamthedivebomber.net"><i class="icon-fixed-width icon-plane"></i></a> -
-                Site last updated on 07 Jul 2013.
+                Site last updated on 08 Jul 2013.
                 </p>
             </div>
         </div>

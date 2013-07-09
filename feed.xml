@@ -7,6 +7,18 @@
         <atom:link href="http://sergeykarayev.com/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>&lt;p&gt;Storing numpy data in mongodb&lt;/p&gt;
+</title>
+                
+                    <description>Showing that cPickle protocol=2 is fastest for sotring numpy arrays into mongodb.
+</description>
+                
+                <pubDate>Mon, 08 Jul 2013 00:00:00 -0700</pubDate>
+                <link>http://sergeykarayev.com/storing-numpy-data-in-mongodb</link>
+                <guid isPermaLink="true">http://sergeykarayev.com/storing-numpy-data-in-mongodb</guid>
+            </item>
+        
+            <item>
                 <title>&lt;p&gt;Recognition on a Budget&lt;/p&gt;
 </title>
                 
