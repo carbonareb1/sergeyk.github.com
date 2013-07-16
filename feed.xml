@@ -57,7 +57,7 @@ A multi-class recognition system must select them intelligently to maximize perf
                 <title>&lt;p&gt;CabFriendly&lt;/p&gt;
 </title>
                 
-                    <description>We have developed a cloud-based mobile web application to match users who request similar trips and would like to share a cab. The application is hosted on Amazon&#39;s EC2 service and combines several open-source frameworks with social networking (Facebook), mapping, and location-awareness (Google) APIs.
+                    <description>A cloud-based mobile web application to match up users who request similar trips and would like to share a cab. The application is hosted on EC2 and combines several open-source frameworks with social networking and location-awareness APIs.
 </description>
                 
                 <pubDate>Tue, 13 Dec 2011 00:00:00 -0800</pubDate>
