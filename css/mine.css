@@ -1759,7 +1759,7 @@ legend{color:#000;}
 .two-of-five{width:37%;}
 .three-of-five{width:57%;}
 .four-of-five{width:77%;}
-@media screen and (max-width:840px){.grid{margin-left:0;max-width:none;} .unit{width:auto;margin-left:0;display:block;}}html,body{font:100%/1.5 "ff-meta-serif-web-pro",serif;background-color:#fcfcfa;color:#656564;}
+@media screen and (max-width:840px){.grid{margin-left:0;max-width:none;} .unit{width:auto;margin-left:0;display:block;}}html,body{font:100%/1.5 "ff-meta-serif-web-pro",serif;color:#656564;}
 .container{max-width:960px;margin:0 auto;padding:0 30px;padding:0 1.5rem;}
 .smaller_container{max-width:880px;margin:0 auto;}
 .site_title{font-weight:bold;margin-left:5rem;}

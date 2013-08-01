@@ -7,6 +7,18 @@
         <atom:link href="http://sergeykarayev.com/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>&lt;p&gt;Summing over image pixels: numba is fast.&lt;/p&gt;
+</title>
+                
+                    <description>A silly little comparison of a few different methods for computing the average pixel color of a masked image.
+</description>
+                
+                <pubDate>Wed, 31 Jul 2013 00:00:00 -0700</pubDate>
+                <link>http://sergeykarayev.com/average-image-color</link>
+                <guid isPermaLink="true">http://sergeykarayev.com/average-image-color</guid>
+            </item>
+        
+            <item>
                 <title>&lt;p&gt;Storing numpy data in mongodb&lt;/p&gt;
 </title>
                 
