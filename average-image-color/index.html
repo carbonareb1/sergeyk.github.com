@@ -89,7 +89,9 @@
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">
+In&nbsp;[1]:
+</div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="kn">import</span> <span class="nn">numba</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
@@ -108,13 +110,16 @@
 
 <div class="hbox output_area"><div class="prompt"></div>
 <div class="box-flex1 output_subarea output_stream output_stdout">
-<pre>(288, 460, 3)
+<pre>
+(288, 460, 3)
+
 </pre>
 </div>
 </div>
 
 <div class="hbox output_area"><div class="prompt"></div>
 <div class="box-flex1 output_subarea output_display_data">
+
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAADvCAYAAADvq18gAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAIABJREFUeJzsvdmPbdt13veb3ep2X82pOnWa25KXl5ZoWV0US7IMQbKA
@@ -3020,15 +3025,19 @@ Lm/dulX+8i//clmW5cUZ/TXxZ3/2Z3PUynfj+bwvWisXcREXcREX8a8vLpidF3ERF3ER3+Fxkcgv
 4iIu4iK+w+MikV/ERVzERXyHx0Uiv4iLuIiL+A6Pi0R+ERdxERfxHR4XifwiLuIiLuI7PP5vVXFU
 SGg8SkAAAAAASUVORK5CYII=
 ">
+
 </div>
 </div>
 
 </div>
 </div>
+
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">
+In&nbsp;[2]:
+</div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="n">mask</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">img</span><span class="o">.</span><span class="n">shape</span><span class="p">[:</span><span class="mi">2</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">bool</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">mask</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
@@ -3047,13 +3056,16 @@ SGg8SkAAAAAASUVORK5CYII=
 
 <div class="hbox output_area"><div class="prompt"></div>
 <div class="box-flex1 output_subarea output_stream output_stdout">
-<pre>(288, 460)
+<pre>
+(288, 460)
+
 </pre>
 </div>
 </div>
 
 <div class="hbox output_area"><div class="prompt"></div>
 <div class="box-flex1 output_subarea output_display_data">
+
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAADvCAYAAADvq18gAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAEDpJREFUeJzt3U9s0/Xjx/HXB9fLN0PdwZWlJSnZupax2TXBzQsHHIWD
@@ -3131,15 +3143,19 @@ XtEnn3zydK5Pvj9dvXjxoikvLzelpaWmtbU134d/IjQ2NpqSkhLjcrmM1+s1p0+fNjdu3DB1dXXG
 JhwOm1AoZKqqqswHH3xgjDGs0RwuX76cvWrlaVwfxxi+Lw8ANuObnQBgOUIOAJYj5ABgOUIOAJYj
 5ABgOUIOAJb7LwsX4LY3pEjtAAAAAElFTkSuQmCC
 ">
+
 </div>
 </div>
 
 </div>
 </div>
+
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">
+In&nbsp;[3]:
+</div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="c"># The first method sums only those elements of img that are not masked.</span>
 
@@ -3166,20 +3182,25 @@ JhwOm1AoZKqqqswHH3xgjDGs0RwuX76cvWrlaVwfxxi+Lw8ANuObnQBgOUIOAJYj5ABgOUIOAJYj
 
 <div class="hbox output_area"><div class="prompt"></div>
 <div class="box-flex1 output_subarea output_stream output_stdout">
-<pre>[ 158.8438761   150.35078147  110.22443876]
+<pre>
+[ 158.8438761   150.35078147  110.22443876]
 100 loops, best of 3: 1.84 ms per loop
 [ 158.8438761   150.35078147  110.22443876]
 100 loops, best of 3: 1.79 ms per loop
+
 </pre>
 </div>
 </div>
 
 </div>
 </div>
+
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">
+In&nbsp;[4]:
+</div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="c"># The second method sums over 0&#39;s due to multiplying with the mask.</span>
 
@@ -3208,20 +3229,25 @@ JhwOm1AoZKqqqswHH3xgjDGs0RwuX76cvWrlaVwfxxi+Lw8ANuObnQBgOUIOAJYj5ABgOUIOAJYj
 
 <div class="hbox output_area"><div class="prompt"></div>
 <div class="box-flex1 output_subarea output_stream output_stdout">
-<pre>[ 158.8438761   150.35078147  110.22443876]
+<pre>
+[ 158.8438761   150.35078147  110.22443876]
 100 loops, best of 3: 1.44 ms per loop
 [ 158.8438761   150.35078147  110.22443876]
 100 loops, best of 3: 1.02 ms per loop
+
 </pre>
 </div>
 </div>
 
 </div>
 </div>
+
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">
+In&nbsp;[5]:
+</div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="c"># The third method reshapes the arrays so that only one sum() needs to be done.</span>
 <span class="c"># Of course, the reshape() creates new arrays...</span>
@@ -3249,23 +3275,28 @@ JhwOm1AoZKqqqswHH3xgjDGs0RwuX76cvWrlaVwfxxi+Lw8ANuObnQBgOUIOAJYj5ABgOUIOAJYj
 
 <div class="hbox output_area"><div class="prompt"></div>
 <div class="box-flex1 output_subarea output_stream output_stdout">
-<pre>[ 158.8438761   150.35078147  110.22443876]
+<pre>
+[ 158.8438761   150.35078147  110.22443876]
 100 loops, best of 3: 3.11 ms per loop
 [ 158.8438761   150.35078147  110.22443876]
 100 loops, best of 3: 3.11 ms per loop
+
 </pre>
 </div>
 </div>
 
 </div>
 </div>
+
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>These are hardly speedups! Let's code stupider.</p>
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">
+In&nbsp;[6]:
+</div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="c"># The following two functions are indentical.</span>
 
@@ -3310,16 +3341,19 @@ JhwOm1AoZKqqqswHH3xgjDGs0RwuX76cvWrlaVwfxxi+Lw8ANuObnQBgOUIOAJYj5ABgOUIOAJYj
 
 <div class="hbox output_area"><div class="prompt"></div>
 <div class="box-flex1 output_subarea output_stream output_stdout">
-<pre>[ 158.8438761   150.35078147  110.22443876]
+<pre>
+[ 158.8438761   150.35078147  110.22443876]
 3 loops, best of 3: 57.3 ms per loop
 [ 158.8438761   150.35078147  110.22443876]
 1000 loops, best of 3: 170 µs per loop
+
 </pre>
 </div>
 </div>
 
 </div>
 </div>
+
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="figure">
@@ -3335,7 +3369,7 @@ JhwOm1AoZKqqqswHH3xgjDGs0RwuX76cvWrlaVwfxxi+Lw8ANuObnQBgOUIOAJYj5ABgOUIOAJYj
             <hr />
             <div class="footer">
 <p>
-Updated 31 Jul 2013
+Updated 13 Nov 2013
 &nbsp; | &nbsp;
 <a href="sergeykarayev@gmail.com"><i class="icon-envelope"></i></a> &middot;
 <a href="http://www.linkedin.com/in/sergeykarayev"><i class="icon-linkedin"></i></a> &middot;
