@@ -10,9 +10,12 @@
                 <title>&lt;p&gt;Image Style&lt;/p&gt;
 </title>
                 
-                    <description>The style of an image plays a significant role in how it is viewed, but has received little attention in computer vision research.
-We present two novel datasets of image style: 55K Flickr photographs and 85K paintings.
-Our approach, based on convolutional nets, shows excellent classification performance on both datasets.
+                    <description>Image style is an important part of visual communication, but has received scant research attention.
+We present novel datasets, including of painting style.
+Our approach is based on convolutional nets and shows excellent classification and search.
+
+- Tech report on [arXiv](/files/1311.3715v1.pdf).
+- Vislab [code and datasets](http://sergeykarayev.com/vislab/).
 </description>
                 
                 <pubDate>Thu, 14 Nov 2013 00:00:00 -0800</pubDate>
@@ -50,6 +53,8 @@ Our approach, based on convolutional nets, shows excellent classification perfor
                 
                     <description>Features have different costs and different classes benefit from different features.
 A multi-class recognition system must select them intelligently to maximize performance under a cost budget.
+
+- Publications at [ICMLW 2013](/files/icmlw_2013_dynamic_feature_selection.pdf), [NIPS 2012](/files/nips_2012_timely_object_recognition.pdf).
 </description>
                 
                 <pubDate>Tue, 11 Jun 2013 00:00:00 -0700</pubDate>
@@ -97,6 +102,8 @@ A multi-class recognition system must select them intelligently to maximize perf
                 
                     <description>Using the Microsoft Kinect, we gather a large dataset of indoor crowded scenes.
 We investigate ways to unify state-of-the-art object detection systems and improve them with depth information.
+
+- Publications at [IROS 2011](/files/iros2011.pdf), [ICCVW 2011](/files/iccvw2011.pdf).
 </description>
                 
                 <pubDate>Fri, 11 Nov 2011 00:00:00 -0800</pubDate>
@@ -110,6 +117,8 @@ We investigate ways to unify state-of-the-art object detection systems and impro
                 
                     <description>Our method for additively decomposing local image patches, LDA-SIFT, shows best performance on a novel transparent object recognition dataset.
 We recursively extend the model to multiple layers and successfully apply it to general object classification.
+
+- Publications at [CVPR 2011](/files/cvpr2011.pdf), [NIPS 2009](/files/nips2009.pdf).
 </description>
                 
                 <pubDate>Mon, 20 Jun 2011 00:00:00 -0700</pubDate>

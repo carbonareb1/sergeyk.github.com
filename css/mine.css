@@ -1759,7 +1759,7 @@ legend{color:#000}
 .two-of-five{width:37%}
 .three-of-five{width:57%}
 .four-of-five{width:77%}
-@media screen and (max-width:840px){.grid{margin-left:0;max-width:none} .unit{width:auto;margin-left:0;display:block}}html,body{font:100%/1.5 "ff-meta-serif-web-pro",serif;color:#656564}
+@media screen and (max-width:840px){.grid{margin-left:0;max-width:none} .unit{width:auto;margin-left:0;display:block}}html,body{font:100%/1.5 "ff-meta-serif-web-pro",serif;color:#585857}
 .container{max-width:960px;margin:0 auto;padding:0 30px;padding:0 1.5rem}
 .smaller_container{max-width:880px;margin:0 auto}
 .site_title{font-weight:bold;margin-left:5rem}
@@ -1776,6 +1776,7 @@ ul.projects li.nothumb div{margin-left:0}
 @media screen and (max-width:840px){aside{margin-left:0;position:relative;width:auto}}.article{max-width:880px}
 .content p,pre,code{max-width:640px}
 h1,h2,h3,h4,.header,.footer,.publication,.sans{font-family:"source-sans-pro",sans-serif;text-rendering:optimizeLegibility}
+h1,h2,h3,h4{color:#3f3f3e}
 h1 p,h2 p,h3 p{margin:0}
 p,ul,ol,dl,blockquote,pre,td,th,label,textarea,caption{font-size:1em;line-height:1.5em;margin:0 0 1.5em 0}
 h1,.h1-like{font-size:2em;line-height:1.5em;margin:0 0 .75em 0}
@@ -1783,6 +1784,8 @@ h2,.h2-like{font-size:1.5em;line-height:1em;margin:0 0 1em 0}
 h3,.h3-like{font-size:1em;line-height:1.5em;margin:0 0 1.5em 0}
 .smaller,aside{font-size:.75em;line-height:2em;margin-bottom:2em}
 .small,ul.projects p{font-size:.875em;line-height:1.7143em;margin-bottom:1.7143em}
+ul.projects ul{font-size:.875em;line-height:1.7143em;margin-bottom:1.7143em;margin-top:-1.7143em}
+ul.projects ul li{display:list-item;list-style-type:disc;overflow:visible;margin-left:1rem;}
 li p,li ul{margin-top:0;margin-bottom:0}
 textarea,table,td,th,code,pre,samp,div,p{word-wrap:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;-o-hyphens:auto;hyphens:auto}
 code,pre,samp{white-space:pre-wrap;font-family:consolas,'DejaVu Sans Mono',courier,monospace}
