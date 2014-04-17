@@ -82,15 +82,22 @@
                     Reading time: about 5  minutes.-->
                 </aside>
                 <div id='notebook'>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>A silly little comparison of a few different methods for computing the average pixel color of a masked image (summing over pixel values). Using Numba's <code>@autojit</code> shows an almost 10x speedup.</p>
 </div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
 In&nbsp;[1]:
 </div>
-<div class="input_area box-flex1">
+<div class="inner_cell">
+    <div class="input_area">
 <div class="highlight"><pre><span class="kn">import</span> <span class="nn">numba</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">skimage.io</span> <span class="kn">import</span> <span class="n">imread</span><span class="p">,</span> <span class="n">imshow</span>
@@ -101,13 +108,14 @@ In&nbsp;[1]:
 
 </div>
 </div>
+</div>
 
-<div class="vbox output_wrapper">
-<div class="output vbox">
+<div class="output_wrapper">
+<div class="output">
 
 
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_stream output_stdout">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
 <pre>
 (288, 460, 3)
 
@@ -115,10 +123,10 @@ In&nbsp;[1]:
 </div>
 </div>
 
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_display_data">
+<div class="output_area"><div class="prompt"></div>
 
 
+<div class="output_png output_subarea ">
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAADvCAYAAADvq18gAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAIABJREFUeJzsvdmPbdt13veb3ep2X82pOnWa25KXl5ZoWV0US7IMQbKA
 QAESWUZkOzCQSMlDYiHJgwMECAzkUe8C8icQelSAAAIix1GEIJIgm5JMirx9e9qq2rXb1c0uD3Pv
@@ -3022,21 +3030,23 @@ vVo+9thj5Ve+8pX38cofXTz77LOlJEnl7du3yzt37pR37twpf+/3fu/inN4Vr7zySvn000+Xt2/f
 Lm/dulX+8i//clmW5cUZ/TXxZ3/2Z3PUynfj+bwvWisXcREXcREX8a8vLpidF3ERF3ER3+Fxkcgv
 4iIu4iK+w+MikV/ERVzERXyHx0Uiv4iLuIiL+A6Pi0R+ERdxERfxHR4XifwiLuIiLuI7PP5vVXFU
 SGg8SkAAAAAASUVORK5CYII=
-">
+"
+>
+</div>
+
+</div>
 
 </div>
 </div>
 
 </div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
 In&nbsp;[2]:
 </div>
-<div class="input_area box-flex1">
+<div class="inner_cell">
+    <div class="input_area">
 <div class="highlight"><pre><span class="n">mask</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">img</span><span class="o">.</span><span class="n">shape</span><span class="p">[:</span><span class="mi">2</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">bool</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">mask</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
 <span class="n">h</span><span class="p">,</span> <span class="n">w</span> <span class="o">=</span> <span class="n">mask</span><span class="o">.</span><span class="n">shape</span><span class="p">[:</span><span class="mi">2</span><span class="p">]</span>
@@ -3047,13 +3057,14 @@ In&nbsp;[2]:
 
 </div>
 </div>
+</div>
 
-<div class="vbox output_wrapper">
-<div class="output vbox">
+<div class="output_wrapper">
+<div class="output">
 
 
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_stream output_stdout">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
 <pre>
 (288, 460)
 
@@ -3061,10 +3072,10 @@ In&nbsp;[2]:
 </div>
 </div>
 
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_display_data">
+<div class="output_area"><div class="prompt"></div>
 
 
+<div class="output_png output_subarea ">
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAADvCAYAAADvq18gAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAEDpJREFUeJzt3U9s0/Xjx/HXB9fLN0PdwZWlJSnZupax2TXBzQsHHIWD
 oY7M4IbiIuOCJ5QQwg0O7I+GA2BIiAnJognDC4wYtgyjyKLGGt2iYQd26LTrukYYSwZqOsb7e/jy
@@ -3140,21 +3151,23 @@ XtEnn3zydK5Pvj9dvXjxoikvLzelpaWmtbU134d/IjQ2NpqSkhLjcrmM1+s1p0+fNjdu3DB1dXXG
 7/ebSCRibt68md3/yJEjprS01AQCAdPb2/sYZ54//f39xnEcEwqFTHV1tamurjY9PT2s0z/8/PPP
 JhwOm1AoZKqqqswHH3xgjDGs0RwuX76cvWrlaVwfxxi+Lw8ANuObnQBgOUIOAJYj5ABgOUIOAJYj
 5ABgOUIOAJb7LwsX4LY3pEjtAAAAAElFTkSuQmCC
-">
+"
+>
+</div>
+
+</div>
 
 </div>
 </div>
 
 </div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
 In&nbsp;[3]:
 </div>
-<div class="input_area box-flex1">
+<div class="inner_cell">
+    <div class="input_area">
 <div class="highlight"><pre><span class="c"># The first method sums only those elements of img that are not masked.</span>
 
 <span class="k">def</span> <span class="nf">average_pixel_1</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">mask</span><span class="p">):</span>
@@ -3173,13 +3186,14 @@ In&nbsp;[3]:
 
 </div>
 </div>
+</div>
 
-<div class="vbox output_wrapper">
-<div class="output vbox">
+<div class="output_wrapper">
+<div class="output">
 
 
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_stream output_stdout">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
 <pre>
 [ 158.8438761   150.35078147  110.22443876]
 100 loops, best of 3: 1.84 ms per loop
@@ -3194,12 +3208,13 @@ In&nbsp;[3]:
 </div>
 
 </div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
 In&nbsp;[4]:
 </div>
-<div class="input_area box-flex1">
+<div class="inner_cell">
+    <div class="input_area">
 <div class="highlight"><pre><span class="c"># The second method sums over 0&#39;s due to multiplying with the mask.</span>
 
 <span class="k">def</span> <span class="nf">average_pixel_2</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">mask</span><span class="p">):</span>
@@ -3220,13 +3235,14 @@ In&nbsp;[4]:
 
 </div>
 </div>
+</div>
 
-<div class="vbox output_wrapper">
-<div class="output vbox">
+<div class="output_wrapper">
+<div class="output">
 
 
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_stream output_stdout">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
 <pre>
 [ 158.8438761   150.35078147  110.22443876]
 100 loops, best of 3: 1.44 ms per loop
@@ -3241,12 +3257,13 @@ In&nbsp;[4]:
 </div>
 
 </div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
 In&nbsp;[5]:
 </div>
-<div class="input_area box-flex1">
+<div class="inner_cell">
+    <div class="input_area">
 <div class="highlight"><pre><span class="c"># The third method reshapes the arrays so that only one sum() needs to be done.</span>
 <span class="c"># Of course, the reshape() creates new arrays...</span>
 
@@ -3266,13 +3283,14 @@ In&nbsp;[5]:
 
 </div>
 </div>
+</div>
 
-<div class="vbox output_wrapper">
-<div class="output vbox">
+<div class="output_wrapper">
+<div class="output">
 
 
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_stream output_stdout">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
 <pre>
 [ 158.8438761   150.35078147  110.22443876]
 100 loops, best of 3: 3.11 ms per loop
@@ -3287,15 +3305,22 @@ In&nbsp;[5]:
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>These are hardly speedups! Let's code stupider.</p>
 </div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
 In&nbsp;[6]:
 </div>
-<div class="input_area box-flex1">
+<div class="inner_cell">
+    <div class="input_area">
 <div class="highlight"><pre><span class="c"># The following two functions are indentical.</span>
 
 <span class="k">def</span> <span class="nf">average_pixel_for_loop</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">mask</span><span class="p">):</span>
@@ -3332,13 +3357,14 @@ In&nbsp;[6]:
 
 </div>
 </div>
+</div>
 
-<div class="vbox output_wrapper">
-<div class="output vbox">
+<div class="output_wrapper">
+<div class="output">
 
 
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_stream output_stdout">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
 <pre>
 [ 158.8438761   150.35078147  110.22443876]
 3 loops, best of 3: 57.3 ms per loop
@@ -3353,11 +3379,17 @@ In&nbsp;[6]:
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="figure">
 <img src="http://i331.photobucket.com/albums/l453/spacecowboy5555/wtf/surprise.gif" />
 </div>
 <p>Summary: best non-numba method is <code>sum(sum(img * mask[:, :, np.newaxis], 0), 0)</code> at 1.4 ms. The same exact thing is sped up to 1 ms by numba. A stupid nested for loop with numba is still 5 times as fast.</p>
+</div>
+</div>
 </div></div>
                 
             </div>
@@ -3367,7 +3399,7 @@ In&nbsp;[6]:
             <hr />
             <div class="footer">
 <p>
-Updated 01 Apr 2014
+Updated 17 Apr 2014
 &nbsp; | &nbsp;
 <a href="sergeykarayev@gmail.com"><i class="icon-envelope"></i></a> &middot;
 <a href="http://www.linkedin.com/in/sergeykarayev"><i class="icon-linkedin"></i></a> &middot;

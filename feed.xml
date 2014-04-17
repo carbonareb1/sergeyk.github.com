@@ -14,7 +14,7 @@
 We present novel datasets, including of painting style.
 Our approach is based on convolutional nets and shows excellent classification and search.
 
-- Tech report on [arXiv](/files/1311.3715v1.pdf).
+- Report on [arXiv](/files/1311.3715v1.pdf).
 - Vislab [code and datasets](http://sergeykarayev.com/vislab/).
 </description>
                 
@@ -52,9 +52,9 @@ Our approach is based on convolutional nets and shows excellent classification a
 </title>
                 
                     <description>Features have different costs and different classes benefit from different features.
-A multi-class recognition system must select them intelligently to maximize performance under a cost budget.
+A multi-class recognition system should dynamically select them to maximize performance under a cost budget.
 
-- Publications at [ICMLW 2013](/files/icmlw_2013_dynamic_feature_selection.pdf), [NIPS 2012](/files/nips_2012_timely_object_recognition.pdf).
+- Publications at [CVPR 2014](/files/cvpr_2014_anytime_recognition.pdf), [ICMLW 2013](/files/icmlw_2013_dynamic_feature_selection.pdf), [NIPS 2012](/files/nips_2012_timely_object_recognition.pdf).
 </description>
                 
                 <pubDate>Tue, 11 Jun 2013 00:00:00 -0700</pubDate>

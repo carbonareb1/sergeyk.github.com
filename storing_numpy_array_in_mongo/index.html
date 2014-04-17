@@ -82,15 +82,22 @@
                     Reading time: about 2  minutes.-->
                 </aside>
                 <div id='notebook'>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Exploring different ways to store a numpy array in MongoDB. Conclusion: cPickle with protocol=2 is fastest.</p>
 </div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
 In&nbsp;[1]:
 </div>
-<div class="input_area box-flex1">
+<div class="inner_cell">
+    <div class="input_area">
 <div class="highlight"><pre><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">cPickle</span>
 <span class="kn">from</span> <span class="nn">pymongo</span> <span class="kn">import</span> <span class="n">MongoClient</span>
@@ -102,14 +109,16 @@ In&nbsp;[1]:
 
 </div>
 </div>
+</div>
 
 </div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
 In&nbsp;[2]:
 </div>
-<div class="input_area box-flex1">
+<div class="inner_cell">
+    <div class="input_area">
 <div class="highlight"><pre><span class="c"># Using tolist()</span>
 <span class="n">collection</span><span class="o">.</span><span class="n">remove</span><span class="p">()</span>
 <span class="k">print</span><span class="p">(</span><span class="s">&quot;inserting with tolist()&quot;</span><span class="p">)</span>
@@ -120,13 +129,14 @@ In&nbsp;[2]:
 
 </div>
 </div>
+</div>
 
-<div class="vbox output_wrapper">
-<div class="output vbox">
+<div class="output_wrapper">
+<div class="output">
 
 
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_stream output_stdout">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
 <pre>
 inserting with tolist()
 1000 loops, best of 3: 248 us per loop
@@ -141,12 +151,13 @@ reading tolist()
 </div>
 
 </div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
 In&nbsp;[3]:
 </div>
-<div class="input_area box-flex1">
+<div class="inner_cell">
+    <div class="input_area">
 <div class="highlight"><pre><span class="c"># Using cPickle with default ASCII protocol.</span>
 <span class="n">collection</span><span class="o">.</span><span class="n">remove</span><span class="p">()</span>
 <span class="k">print</span><span class="p">(</span><span class="s">&quot;inserting with cpickle&quot;</span><span class="p">)</span>
@@ -157,13 +168,14 @@ In&nbsp;[3]:
 
 </div>
 </div>
+</div>
 
-<div class="vbox output_wrapper">
-<div class="output vbox">
+<div class="output_wrapper">
+<div class="output">
 
 
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_stream output_stdout">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
 <pre>
 inserting with cpickle
 1000 loops, best of 3: 359 us per loop
@@ -178,12 +190,13 @@ reading cpickle
 </div>
 
 </div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
 In&nbsp;[4]:
 </div>
-<div class="input_area box-flex1">
+<div class="inner_cell">
+    <div class="input_area">
 <div class="highlight"><pre><span class="c"># Using cPickle with fast protocol=2.</span>
 <span class="n">collection</span><span class="o">.</span><span class="n">remove</span><span class="p">()</span>
 <span class="k">print</span><span class="p">(</span><span class="s">&quot;inserting with cpickle protocol 2&quot;</span><span class="p">)</span>
@@ -194,13 +207,14 @@ In&nbsp;[4]:
 
 </div>
 </div>
+</div>
 
-<div class="vbox output_wrapper">
-<div class="output vbox">
+<div class="output_wrapper">
+<div class="output">
 
 
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_stream output_stdout">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
 <pre>
 inserting with cpickle protocol 2
 1000 loops, best of 3: 208 us per loop
@@ -223,7 +237,7 @@ reading cpickle protocol 2
             <hr />
             <div class="footer">
 <p>
-Updated 01 Apr 2014
+Updated 17 Apr 2014
 &nbsp; | &nbsp;
 <a href="sergeykarayev@gmail.com"><i class="icon-envelope"></i></a> &middot;
 <a href="http://www.linkedin.com/in/sergeykarayev"><i class="icon-linkedin"></i></a> &middot;
