@@ -7,7 +7,7 @@
     <meta name="author" content="Sergey Karayev">
     <link rel="alternate" type="application/rss+xml"  href="http://sergeykarayev.com/feed.xml" title="Sergey Karayev RSS Feed">
 
-    <title>Sergey Karayev | Jupiter album art recreation</title>
+    <title>Sergey Karayev | Foveal Explorer</title>
 
     <link rel="stylesheet" media="all" href="/css/mine.css" />
     <!--[if lt IE 9]>
@@ -23,6 +23,39 @@
     
 
     <!-- Any other scripts or anything that the page may want. -->
+    
+    <script type="text/javascript" src="/ext/processing.min.js"></script>
+<script type="text/javascript">
+  var img = "i05june05_static_street_boston_p1010764.jpeg";
+
+  // mode is one of [free, click]
+  var mode = "click";
+
+  // legacy code from the MTurk version.
+  var HIT_accepted = function() {
+    return true;
+  };
+
+  // Binding Processing to get data from sketch
+  var bound = false;
+  function bindJavascript() {
+    var pjs = Processing.getInstanceById('ex');
+    if (pjs != null) {
+      pjs.bindJavascript(this);
+      bound = true;
+    }
+    if (!bound) {
+        setTimeout(bindJavascript, 250);
+    }
+  }
+  bindJavascript();
+</script>
+<style type="text/css">
+  #explorer {
+    cursor: crosshair;
+  }
+</style>
+
     
 
     <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
@@ -72,7 +105,7 @@
                             Sergey Karayev
                         </a>
                     </p>
-                    <h1><p>Jupiter album art recreation</p>
+                    <h1><p>Foveal Explorer</p>
 </h1>
                 
             </div>
@@ -80,49 +113,41 @@
             <div class="content">
                 
                 <aside>
-                    Published 16 Aug 2010.
+                    Published 20 May 2014.
                     <!--<br />
-                    Reading time: less than 1 minute.-->
+                    Reading time: about 1  minute.-->
                 </aside>
-                <p>I really like the cover of the album Jupiter by the band <a href="http://www.myspace.com/strfkrmusic">Starfucker</a> (their music is awesome as well).</p>
+                <p>A couple of years ago, I became interested in human visual attention.
+Our eyes are mostly low-resolution, with a high-resolution center called the <em>fovea</em>.
+Visual recognition requires sequential actions, called <em>saccades</em>, which center the fovea on points of interest.
+To build models of visual attention, researchers often record saccades using an eye tracking device, and map them onto the viewed image.</p>
 
-<p><img src="/images/jupiter/actual.jpg" /></p>
+<p>As I was working on reinforcement learning for <a href="/recognition-on-a-budget">dynamic feature selection</a> at the time, I had an idea to use <em>inverse reinforcement learning</em> for learning such a model.
+The gist of the idea is that the <em>reward function</em> provides the most concise formulation of such sequential behavior (see Pieter Abbeel’s <a href="http://scholar.google.com/scholar?cluster=10260011060619377707&amp;hl=en&amp;as_sdt=0,5&amp;as_vis=1">classic paper</a>).</p>
 
-<p>I thought it would look cool as a huge print on my wall.
-Unfortunately, I could not find a large enough image.
-So, I decided to recreate it using <a href="http://processing.org">Processing</a>.
-The basic idea was surprisingly easy to match.
-The hardest part to get close was the color distribution.
-After a little HSV space histogramming (suggested by <a href="http://www.d2.mpi-inf.mpg.de/People/mfritz">Mario</a>), I finally settled on manually picking a pallete of just six hues inspired by the original image, and then randomly (with some caveats) picking the saturation and brightness values.
-Pro tip: the slightly non-uniform widths of the stripes were modeled with a draw from the Dirichlet distribution.</p>
+<p>Eye fixations are strongly dependent on the task: if you’re looking for people in a street scene, you’ll look at different locations than if you’re looking for street signs.
+However, datasets of recorded eye fixations we were able to find were all gathered in “free-viewing,” with an unspecified task.</p>
 
-<p><img src="/images/jupiter/mine.jpg" /></p>
+<p>Since this project was not intended as a main part of my thesis work, I was unwilling to invest a lot of resources into obtaining my own fixation data.
+So, I did what computer vision people do when they need to collect data: used Amazon Mechanical Turk.</p>
 
-<p>The result looks pretty good to me, and can be generated at any resolution.</p>
+<div id="explorer">
+    <canvas id="ex" data-processing-sources="/files/foveal_explorer/ex.pde"></canvas>
+</div>
 
-<p>[<a href="/files/jupiter.pjs">source code</a>]</p>
+<p>Click on the purple circle above to begin the task of foveally exploring the image.
+The Mech Turk task asked people to either write down all the text or count all the people in the scene, and collected the time-stamped history of their clicks.</p>
+
+<p>I abandoned this research direction before obtaining results.
+I’m releasing the foveal explorer code, and 10K image-task fixation histories.
+Perhaps someone would like to take over!</p>
+
+<p>[<a href="http://github.com/sergeyk/foveal_explorer">code repo</a>]</p>
 
 
                 
             </div>
 
-            
-                <hr />
-                <div id="disqus_thread"></div>
-                <script type="text/javascript">
-                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                    var disqus_shortname = 'sergeykarayevwebsite';
-                    var disqus_title = "Jupiter album art recreation";
-
-                    /* * * DON'T EDIT BELOW THIS LINE * * */
-                    (function() {
-                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                    })();
-                </script>
-                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
             
 
             <hr />
