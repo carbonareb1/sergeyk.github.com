@@ -22,10 +22,10 @@
 </title>
                 
                     <description>Image style is an important part of visual communication, but has received scant research attention.
-We present novel datasets, including of painting style.
-Our approach is based on convolutional nets and shows excellent classification and search.
+We present novel datasets of photograph and painting style.
+Our approach is based on convolutional neural nets.
 
-- Report on [arXiv](/files/1311.3715v1.pdf).
+- Report on [arXiv](/files/1311.3715v2.pdf).
 - Vislab [code and datasets](http://vislab.berkeleyvision.org/).
 </description>
                 
