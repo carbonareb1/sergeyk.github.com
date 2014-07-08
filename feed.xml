@@ -10,7 +10,9 @@
                 <title>&lt;p&gt;Foveal Explorer&lt;/p&gt;
 </title>
                 
-                    <description>A JavaScript applet for exploring images foveally.</description>
+                    <description>A JavaScript applet for exploring images &quot;foveally,&quot; by moving a high-resolution area around.
+Written to gather visual attention data on Amazon Mechanical Turk.
+</description>
                 
                 <pubDate>Tue, 20 May 2014 00:00:00 -0700</pubDate>
                 <link>http://sergeykarayev.com/foveal-explorer</link>
@@ -18,14 +20,14 @@
             </item>
         
             <item>
-                <title>&lt;p&gt;Image Style&lt;/p&gt;
+                <title>&lt;p&gt;Recognizing Image Style&lt;/p&gt;
 </title>
                 
                     <description>Image style is integral to visual communication, but has received scant research attention.
-We present novel datasets of photograph and painting style, and evaluate convolutional neural nets for the task.
+We gather datasets of photo and painting style, and evaluate convolutional neural nets for the task.
 
 - Publication at [BMVC 2014](/files/1311.3715v2.pdf).
-- **Vislab** [code and datasets](http://vislab.berkeleyvision.org/).
+- [Code and datasets](http://vislab.berkeleyvision.org/) and a [demo](http://demo.vislab.berkeleyvision.org/).
 </description>
                 
                 <pubDate>Thu, 14 Nov 2013 00:00:00 -0800</pubDate>
@@ -58,7 +60,7 @@ We present novel datasets of photograph and painting style, and evaluate convolu
             </item>
         
             <item>
-                <title>&lt;p&gt;Recognition on a Budget&lt;/p&gt;
+                <title>&lt;p&gt;Anytime Visual Recognition&lt;/p&gt;
 </title>
                 
                     <description>Features have different costs and different classes benefit from different features.
@@ -73,7 +75,7 @@ A multi-class recognition system should dynamically select them to maximize perf
             </item>
         
             <item>
-                <title>&lt;p&gt;Rayleigh: Multi-color image search&lt;/p&gt;
+                <title>&lt;p&gt;Multi-color image search&lt;/p&gt;
 </title>
                 
                     <description>We present an open-source system for quickly searching large image collections by multiple colors given as a palette, or by color similarity to a query image.</description>
@@ -125,8 +127,8 @@ We investigate ways to unify state-of-the-art object detection systems and impro
                 <title>&lt;p&gt;Probabilistic Local Image Features&lt;/p&gt;
 </title>
                 
-                    <description>Our method for additively decomposing local image patches, LDA-SIFT, shows best performance on a novel transparent object recognition dataset.
-We recursively extend the model to multiple layers and successfully apply it to general object classification.
+                    <description>Our method for additively decomposing local image patches shows best performance on a novel transparent object recognition dataset.
+We extend the model to multiple layers and apply it to general object classification.
 
 - Publications at [CVPR 2011](/files/cvpr2011.pdf), [NIPS 2009](/files/nips2009.pdf).
 </description>
@@ -175,9 +177,8 @@ We investigate ways of enforcing a topography over the learned codes in a locall
                 <title>&lt;p&gt;Virtual Zoom&lt;/p&gt;
 </title>
                 
-                    <description>Undergrad research project with [Steve Seitz][ss].
-With our application, the user can zoom in on a distant landmark using other people’s photographs.
-Our system relies on a 3D scene modeling back end that computes the viewpoint of each photograph in an unordered large photo collection.
+                    <description>With our application, the user can zoom in on a distant landmark using other people’s photographs.
+This work builds on a 3D scene modeling back end that infers the viewpoint of each photograph in an unordered collection (Photo Tourism).
 </description>
                 
                 <pubDate>Sat, 06 Jun 2009 00:00:00 -0700</pubDate>
