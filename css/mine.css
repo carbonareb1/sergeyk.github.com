@@ -1793,5 +1793,5 @@ code,pre,samp{white-space:pre-wrap;font-family:consolas,'DejaVu Sans Mono',couri
 code{line-height:1em}
 table{margin-bottom:1.5em}
 hr{height:0;margin:-1px 0 0 0;margin-bottom:1.5rem;border:0;border-bottom:1px solid rgba(0,0,0,0.1)}
-.publication p img{float:left;margin-right:20px}
+.publication div{display:inline-block;vertical-align:top}
 .header{margin-top:1em}
