@@ -82,7 +82,19 @@
                 <aside>
                     Published 11 Nov 2011.
                     <!--<br />
-                    Reading time: less than 1 minute.-->
+                    Reading time: {{ page.abstract }}
+
+## Publications
+
+{% for publication in page.publications %}
+<div class="publication">
+    <div><img src="{{ publication[1].image }}" width="180px" /></div>
+    <div markdown="1">{{ publication[1].info }}</div>
+</div>
+{% endfor %}
+
+{% include peoples_urls.md %}
+.-->
                 </aside>
                 <p>Using the Microsoft Kinect, we gather a large dataset of indoor crowded scenes.
 We investigate ways to unify state-of-the-art object detection systems and improve them with depth information.</p>
@@ -136,7 +148,7 @@ IROS 2011
             
 
             <hr />
-            <div class="footer"> Updated 08 Jul 2014 </div>
+            <div class="footer"> Updated 30 Jul 2014 </div>
         </div>
         
         </div>

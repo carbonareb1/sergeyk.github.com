@@ -82,7 +82,19 @@
                 <aside>
                     Published 20 Jun 2011.
                     <!--<br />
-                    Reading time: less than 1 minute.-->
+                    Reading time: {{ page.abstract }}
+
+## Publications
+
+{% for publication in page.publications %}
+<div class="publication">
+    <div><img src="{{ publication[1].image }}" width="180px" /></div>
+    <div markdown="1">{{ publication[1].info }}</div>
+</div>
+{% endfor %}
+
+{% include peoples_urls.md %}
+.-->
                 </aside>
                 <p>Our method for additively decomposing local image patches shows best performance on a novel transparent object recognition dataset.
 We extend the model to multiple layers and apply it to general object classification.</p>
@@ -132,7 +144,7 @@ NIPS 2009
             
 
             <hr />
-            <div class="footer"> Updated 08 Jul 2014 </div>
+            <div class="footer"> Updated 30 Jul 2014 </div>
         </div>
         
         </div>

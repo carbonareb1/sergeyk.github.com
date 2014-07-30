@@ -13,17 +13,17 @@
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+    
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <script type="text/javascript" src="//use.typekit.net/uzs7hgs.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-
+    
 
     <!-- Any other scripts or anything that the page may want. -->
-
+    
 
     <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
     <script type="text/javascript">
@@ -61,11 +61,11 @@
 
 <body lang="en">
     <div class="container">
-
+        
         <div class="smaller_container">
-
+        
             <div class="header">
-
+                
                     <p>
                         <a href="/" rel="author">
                             <i class="fa fa-th"></i>
@@ -74,15 +74,27 @@
                     </p>
                     <h1><p>Recognizing Image Style</p>
 </h1>
-
+                
             </div>
 
             <div class="content">
-
+                
                 <aside>
                     Published 14 Nov 2013.
                     <!--<br />
-                    Reading time: less than 1 minute.-->
+                    Reading time: <p class="abstract">
+The style of an image plays a significant role in how it is viewed, but style has received little attention in computer vision research. We describe an approach to predicting style of images, and perform a thorough evaluation of different image features for these tasks. We find that features learned in a multi-layer network generally perform best -- even when trained with object class (not style) labels. Our large-scale learning methods results in the best published performance on an existing dataset of aesthetic ratings and photographic style annotations. We present two novel datasets: 80K Flickr photographs annotated with 20 curated style labels, and 85K paintings annotated with 25 style/genre labels. Our approach shows excellent classification performance on both datasets. We use the learned classifiers to extend traditional tag-based image search to consider stylistic constraints, and demonstrate cross-dataset understanding of style.
+</p>
+
+{% for publication in page.publications %}
+<div class="publication">
+    <div><img src="{{ publication[1].image }}" width="180px" /></div>
+    <div markdown="1">{{ publication[1].info }}</div>
+</div>
+{% endfor %}
+
+{% include peoples_urls.md %}
+.-->
                 </aside>
                 <p class="abstract">
 The style of an image plays a significant role in how it is viewed, but style has received little attention in computer vision research. We describe an approach to predicting style of images, and perform a thorough evaluation of different image features for these tasks. We find that features learned in a multi-layer network generally perform best -- even when trained with object class (not style) labels. Our large-scale learning methods results in the best published performance on an existing dataset of aesthetic ratings and photographic style annotations. We present two novel datasets: 80K Flickr photographs annotated with 20 curated style labels, and 85K paintings annotated with 25 style/genre labels. Our approach shows excellent classification performance on both datasets. We use the learned classifiers to extend traditional tag-based image search to consider stylistic constraints, and demonstrate cross-dataset understanding of style.
@@ -111,17 +123,17 @@ BMVC 2014
 </div>
 
 
-
+                
             </div>
 
-
+            
 
             <hr />
-            <div class="footer"> Updated 08 Jul 2014 </div>
+            <div class="footer"> Updated 30 Jul 2014 </div>
         </div>
-
+        
         </div>
-
+        
     </div>
 </body>
 </html>

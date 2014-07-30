@@ -82,7 +82,29 @@
                 <aside>
                     Published 13 Dec 2011.
                     <!--<br />
-                    Reading time: less than 1 minute.-->
+                    Reading time: (Joint work with [Adam Roberts][ar] and [Harold Pimentel][hp].)
+
+We have developed a cloud-based mobile web application to match users who request similar trips and would like to share a cab.
+The application is hosted on Amazon's EC2 service and combines several open-source frameworks (Django, PostgresQL, Redis, Node.js) with social networking (Facebook), mapping, and location-awareness (Google) APIs.
+The modularity of our design allows the service to easily scale in the cloud as the user base grows.
+
+<del markdown="1">
+    [Use it!](http://cabfriendly.com)
+</del>
+(The application is now offline, sorry.)
+
+The [code](https://github.com/sergeyk/cabfriendly) is provided with no documentation or support.
+
+### Architecture
+
+![Architecture of our application.](/images/cabfriendly/architecture.png)
+
+### Use case scenario
+
+![A use case scenario in screenshots of the app.](/images/cabfriendly/use_case.png)
+
+{% include peoples_urls.md %}
+.-->
                 </aside>
                 <p>(Joint work with <a href="http://www.cs.berkeley.edu/~adarob/">Adam Roberts</a> and <a href="http://www.eecs.berkeley.edu/~pimentel/">Harold Pimentel</a>.)</p>
 
@@ -129,7 +151,7 @@ The modularity of our design allows the service to easily scale in the cloud as 
             
 
             <hr />
-            <div class="footer"> Updated 08 Jul 2014 </div>
+            <div class="footer"> Updated 30 Jul 2014 </div>
         </div>
         
         </div>
