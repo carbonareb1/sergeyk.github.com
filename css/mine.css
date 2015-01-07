@@ -3913,29 +3913,29 @@ legend {
   #notebook .btn-mini .label, #notebook .btn-mini .badge {
     top: 0; }
 @-webkit-keyframes progress-bar-stripes {
-  #notebook from {
+  from {
     background-position: 40px 0; }
-  #notebook to {
+  to {
     background-position: 0 0; } }
 @-moz-keyframes progress-bar-stripes {
-  #notebook from {
+  from {
     background-position: 40px 0; }
-  #notebook to {
+  to {
     background-position: 0 0; } }
 @-ms-keyframes progress-bar-stripes {
-  #notebook from {
+  from {
     background-position: 40px 0; }
-  #notebook to {
+  to {
     background-position: 0 0; } }
 @-o-keyframes progress-bar-stripes {
-  #notebook from {
+  from {
     background-position: 0 0; }
-  #notebook to {
+  to {
     background-position: 40px 0; } }
 @keyframes progress-bar-stripes {
-  #notebook from {
+  from {
     background-position: 40px 0; }
-  #notebook to {
+  to {
     background-position: 0 0; } }
   #notebook .progress {
     overflow: hidden;
@@ -3987,11 +3987,11 @@ legend {
     box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15); }
   #notebook .progress-striped .bar {
     background-color: #149bdf;
-    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, rgba(0, 0, 0, 0)), color-stop(0.5, rgba(0, 0, 0, 0)), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     -webkit-background-size: 40px 40px;
     -moz-background-size: 40px 40px;
     -o-background-size: 40px 40px;
@@ -4013,11 +4013,11 @@ legend {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffc43c35', GradientType=0); }
   #notebook .progress-danger.progress-striped .bar, #notebook .progress-striped .bar-danger {
     background-color: #ee5f5b;
-    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, rgba(0, 0, 0, 0)), color-stop(0.5, rgba(0, 0, 0, 0)), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0)); }
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
   #notebook .progress-success .bar, #notebook .progress .bar-success {
     background-color: #5eb95e;
     background-image: -moz-linear-gradient(top, #62c462, #57a957);
@@ -4029,11 +4029,11 @@ legend {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff57a957', GradientType=0); }
   #notebook .progress-success.progress-striped .bar, #notebook .progress-striped .bar-success {
     background-color: #62c462;
-    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, rgba(0, 0, 0, 0)), color-stop(0.5, rgba(0, 0, 0, 0)), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0)); }
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
   #notebook .progress-info .bar, #notebook .progress .bar-info {
     background-color: #4bb1cf;
     background-image: -moz-linear-gradient(top, #5bc0de, #339bb9);
@@ -4045,11 +4045,11 @@ legend {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff339bb9', GradientType=0); }
   #notebook .progress-info.progress-striped .bar, #notebook .progress-striped .bar-info {
     background-color: #5bc0de;
-    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, rgba(0, 0, 0, 0)), color-stop(0.5, rgba(0, 0, 0, 0)), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0)); }
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
   #notebook .progress-warning .bar, #notebook .progress .bar-warning {
     background-color: #faa732;
     background-image: -moz-linear-gradient(top, #fbb450, #f89406);
@@ -4061,11 +4061,11 @@ legend {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0); }
   #notebook .progress-warning.progress-striped .bar, #notebook .progress-striped .bar-warning {
     background-color: #fbb450;
-    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, rgba(0, 0, 0, 0)), color-stop(0.5, rgba(0, 0, 0, 0)), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0)); }
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
   #notebook .accordion {
     margin-bottom: 20px; }
   #notebook .accordion-group {
@@ -5689,29 +5689,29 @@ legend {
     -webkit-animation: spin 2s infinite linear;
     animation: spin 2s infinite linear; }
 @-moz-keyframes spin {
-  #notebook 0%  {
+  0% {
     -moz-transform: rotate(0deg); }
-  #notebook 100%  {
+  100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
-  #notebook 0%  {
+  0% {
     -webkit-transform: rotate(0deg); }
-  #notebook 100%  {
+  100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
-  #notebook 0%  {
+  0% {
     -o-transform: rotate(0deg); }
-  #notebook 100%  {
+  100% {
     -o-transform: rotate(359deg); } }
 @-ms-keyframes spin {
-  #notebook 0%  {
+  0% {
     -ms-transform: rotate(0deg); }
-  #notebook 100%  {
+  100% {
     -ms-transform: rotate(359deg); } }
 @keyframes spin {
-  #notebook 0%  {
+  0% {
     transform: rotate(0deg); }
-  #notebook 100%  {
+  100% {
     transform: rotate(359deg); } }
   #notebook .icon-rotate-90:before {
     -webkit-transform: rotate(90deg);
@@ -6964,24 +6964,24 @@ legend {
   #notebook #maintoolbar {
     margin-bottom: 0px; }
 @-moz-keyframes fadeOut {
-  #notebook from {
+  from {
     opacity: 1; }
-  #notebook to {
+  to {
     opacity: 0; } }
 @-webkit-keyframes fadeOut {
-  #notebook from {
+  from {
     opacity: 1; }
-  #notebook to {
+  to {
     opacity: 0; } }
 @-moz-keyframes fadeIn {
-  #notebook from {
+  from {
     opacity: 0; }
-  #notebook to {
+  to {
     opacity: 1; } }
 @-webkit-keyframes fadeIn {
-  #notebook from {
+  from {
     opacity: 0; }
-  #notebook to {
+  to {
     opacity: 1; } }
   #notebook .bigtooltip {
     overflow: auto;
@@ -7070,7 +7070,7 @@ legend {
     color: #408080;
     font-style: italic; }
   #notebook .highlight .err {
-    border: 1px solid #ff0000; }
+    border: 1px solid #FF0000; }
   #notebook .highlight .k {
     color: #008000;
     font-weight: bold; }
@@ -7080,7 +7080,7 @@ legend {
     color: #408080;
     font-style: italic; }
   #notebook .highlight .cp {
-    color: #bc7a00; }
+    color: #BC7A00; }
   #notebook .highlight .c1 {
     color: #408080;
     font-style: italic; }
@@ -7088,16 +7088,16 @@ legend {
     color: #408080;
     font-style: italic; }
   #notebook .highlight .gd {
-    color: #a00000; }
+    color: #A00000; }
   #notebook .highlight .ge {
     font-style: italic; }
   #notebook .highlight .gr {
-    color: #ff0000; }
+    color: #FF0000; }
   #notebook .highlight .gh {
     color: #000080;
     font-weight: bold; }
   #notebook .highlight .gi {
-    color: #00a000; }
+    color: #00A000; }
   #notebook .highlight .go {
     color: #888888; }
   #notebook .highlight .gp {
@@ -7109,7 +7109,7 @@ legend {
     color: #800080;
     font-weight: bold; }
   #notebook .highlight .gt {
-    color: #0044dd; }
+    color: #0044DD; }
   #notebook .highlight .kc {
     color: #008000;
     font-weight: bold; }
@@ -7125,13 +7125,13 @@ legend {
     color: #008000;
     font-weight: bold; }
   #notebook .highlight .kt {
-    color: #b00040; }
+    color: #B00040; }
   #notebook .highlight .m {
     color: #666666; }
   #notebook .highlight .s {
-    color: #ba2121; }
+    color: #BA2121; }
   #notebook .highlight .na {
-    color: #7d9029; }
+    color: #7D9029; }
   #notebook .highlight .nb {
     color: #008000; }
   #notebook .highlight .nc {
@@ -7140,7 +7140,7 @@ legend {
   #notebook .highlight .no {
     color: #880000; }
   #notebook .highlight .nd {
-    color: #aa22ff; }
+    color: #AA22FF; }
   #notebook .highlight .ni {
     color: #999999;
     font-weight: bold; }
@@ -7148,9 +7148,9 @@ legend {
     color: #D2413A;
     font-weight: bold; }
   #notebook .highlight .nf {
-    color: #0000ff; }
+    color: #0000FF; }
   #notebook .highlight .nl {
-    color: #a0a000; }
+    color: #A0A000; }
   #notebook .highlight .nn {
     color: #0000FF;
     font-weight: bold; }
@@ -7158,7 +7158,7 @@ legend {
     color: #008000;
     font-weight: bold; }
   #notebook .highlight .nv {
-    color: #19177c; }
+    color: #19177C; }
   #notebook .highlight .ow {
     color: #AA22FF;
     font-weight: bold; }
@@ -7173,38 +7173,38 @@ legend {
   #notebook .highlight .mo {
     color: #666666; }
   #notebook .highlight .sb {
-    color: #ba2121; }
+    color: #BA2121; }
   #notebook .highlight .sc {
-    color: #ba2121; }
+    color: #BA2121; }
   #notebook .highlight .sd {
     color: #BA2121;
     font-style: italic; }
   #notebook .highlight .s2 {
-    color: #ba2121; }
+    color: #BA2121; }
   #notebook .highlight .se {
     color: #BB6622;
     font-weight: bold; }
   #notebook .highlight .sh {
-    color: #ba2121; }
+    color: #BA2121; }
   #notebook .highlight .si {
     color: #BB6688;
     font-weight: bold; }
   #notebook .highlight .sx {
     color: #008000; }
   #notebook .highlight .sr {
-    color: #bb6688; }
+    color: #BB6688; }
   #notebook .highlight .s1 {
-    color: #ba2121; }
+    color: #BA2121; }
   #notebook .highlight .ss {
-    color: #19177c; }
+    color: #19177C; }
   #notebook .highlight .bp {
     color: #008000; }
   #notebook .highlight .vc {
-    color: #19177c; }
+    color: #19177C; }
   #notebook .highlight .vg {
-    color: #19177c; }
+    color: #19177C; }
   #notebook .highlight .vi {
-    color: #19177c; }
+    color: #19177C; }
   #notebook .highlight .il {
     color: #666666; }
 
