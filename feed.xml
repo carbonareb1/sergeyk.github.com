@@ -14,7 +14,7 @@
 Written to gather visual attention data on Amazon Mechanical Turk.
 </description>
                 
-                <pubDate>Tue, 20 May 2014 00:00:00 +0900</pubDate>
+                <pubDate>Tue, 20 May 2014 00:00:00 -0700</pubDate>
                 <link>http://sergeykarayev.com/foveal-explorer</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/foveal-explorer</guid>
             </item>
@@ -27,7 +27,7 @@ Written to gather visual attention data on Amazon Mechanical Turk.
 We gather datasets of photo and painting style, and evaluate convolutional neural nets for the task.
 </description>
                 
-                <pubDate>Thu, 14 Nov 2013 00:00:00 +0900</pubDate>
+                <pubDate>Thu, 14 Nov 2013 00:00:00 -0800</pubDate>
                 <link>http://sergeykarayev.com/recognizing-image-style</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/recognizing-image-style</guid>
             </item>
@@ -39,7 +39,7 @@ We gather datasets of photo and painting style, and evaluate convolutional neura
                     <description>A silly little comparison of a few different methods for computing the average pixel color of a masked image.
 </description>
                 
-                <pubDate>Wed, 31 Jul 2013 00:00:00 +0900</pubDate>
+                <pubDate>Wed, 31 Jul 2013 00:00:00 -0700</pubDate>
                 <link>http://sergeykarayev.com/average-image-color</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/average-image-color</guid>
             </item>
@@ -51,7 +51,7 @@ We gather datasets of photo and painting style, and evaluate convolutional neura
                     <description>Showing that cPickle protocol=2 is fastest for storing numpy arrays into mongodb.
 </description>
                 
-                <pubDate>Tue, 09 Jul 2013 00:00:00 +0900</pubDate>
+                <pubDate>Tue, 09 Jul 2013 00:00:00 -0700</pubDate>
                 <link>http://sergeykarayev.com/storing_numpy_array_in_mongo</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/storing_numpy_array_in_mongo</guid>
             </item>
@@ -64,7 +64,7 @@ We gather datasets of photo and painting style, and evaluate convolutional neura
 A multi-class recognition system should dynamically select them to maximize performance under a cost budget.
 </description>
                 
-                <pubDate>Tue, 11 Jun 2013 00:00:00 +0900</pubDate>
+                <pubDate>Tue, 11 Jun 2013 00:00:00 -0700</pubDate>
                 <link>http://sergeykarayev.com/recognition-on-a-budget</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/recognition-on-a-budget</guid>
             </item>
@@ -75,7 +75,7 @@ A multi-class recognition system should dynamically select them to maximize perf
                 
                     <description>We present an open-source system for quickly searching large image collections by multiple colors given as a palette, or by color similarity to a query image.</description>
                 
-                <pubDate>Sun, 12 May 2013 00:00:00 +0900</pubDate>
+                <pubDate>Sun, 12 May 2013 00:00:00 -0700</pubDate>
                 <link>http://sergeykarayev.com/rayleigh-multicolor-search</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/rayleigh-multicolor-search</guid>
             </item>
@@ -86,7 +86,7 @@ A multi-class recognition system should dynamically select them to maximize perf
                 
                     <description>Concise notes on setting up a development environment on OS X 10.8 for statistical computing and web development.</description>
                 
-                <pubDate>Wed, 08 Aug 2012 00:00:00 +0900</pubDate>
+                <pubDate>Wed, 08 Aug 2012 00:00:00 -0700</pubDate>
                 <link>http://sergeykarayev.com/setting-up-mountain-lion</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/setting-up-mountain-lion</guid>
             </item>
@@ -98,7 +98,7 @@ A multi-class recognition system should dynamically select them to maximize perf
                     <description>A cloud-based mobile web application to match up users who request similar trips and would like to share a cab. The application is hosted on EC2 and combines several open-source frameworks with social networking and location-awareness APIs.
 </description>
                 
-                <pubDate>Tue, 13 Dec 2011 00:00:00 +0900</pubDate>
+                <pubDate>Tue, 13 Dec 2011 00:00:00 -0800</pubDate>
                 <link>http://sergeykarayev.com/cabfriendly</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/cabfriendly</guid>
             </item>
@@ -111,7 +111,7 @@ A multi-class recognition system should dynamically select them to maximize perf
 We investigate ways to unify state-of-the-art object detection systems and improve them with depth information.
 </description>
                 
-                <pubDate>Fri, 11 Nov 2011 00:00:00 +0900</pubDate>
+                <pubDate>Fri, 11 Nov 2011 00:00:00 -0800</pubDate>
                 <link>http://sergeykarayev.com/depth-informed-object-detection</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/depth-informed-object-detection</guid>
             </item>
@@ -124,7 +124,7 @@ We investigate ways to unify state-of-the-art object detection systems and impro
 We extend the model to multiple layers and apply it to general object classification.
 </description>
                 
-                <pubDate>Mon, 20 Jun 2011 00:00:00 +0900</pubDate>
+                <pubDate>Mon, 20 Jun 2011 00:00:00 -0700</pubDate>
                 <link>http://sergeykarayev.com/probabilistic-decomposition-of-local-features</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/probabilistic-decomposition-of-local-features</guid>
             </item>
@@ -135,7 +135,7 @@ We extend the model to multiple layers and apply it to general object classifica
                 
                     <description>Motivation for and some lit review related to the idea of attentional object detection--not looking for everything everywhere.</description>
                 
-                <pubDate>Thu, 24 Mar 2011 00:00:00 +0900</pubDate>
+                <pubDate>Thu, 24 Mar 2011 00:00:00 -0700</pubDate>
                 <link>http://sergeykarayev.com/attentional-object-detection</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/attentional-object-detection</guid>
             </item>
@@ -148,7 +148,7 @@ We extend the model to multiple layers and apply it to general object classifica
 We investigate ways of enforcing a topography over the learned codes in a locally self-organizing map approach.
 </description>
                 
-                <pubDate>Sun, 12 Dec 2010 00:00:00 +0900</pubDate>
+                <pubDate>Sun, 12 Dec 2010 00:00:00 -0800</pubDate>
                 <link>http://sergeykarayev.com/self-organizing-sparse-codes</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/self-organizing-sparse-codes</guid>
             </item>
@@ -159,7 +159,7 @@ We investigate ways of enforcing a topography over the learned codes in a locall
                 
                     <description>Recreation of a cool album cover image (Jupiter by Starfucker) using Processing.</description>
                 
-                <pubDate>Mon, 16 Aug 2010 00:00:00 +0900</pubDate>
+                <pubDate>Mon, 16 Aug 2010 00:00:00 -0700</pubDate>
                 <link>http://sergeykarayev.com/jupiter</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/jupiter</guid>
             </item>
@@ -172,7 +172,7 @@ We investigate ways of enforcing a topography over the learned codes in a locall
 This work builds on a 3D scene modeling back end that infers the viewpoint of each photograph in an unordered collection (Photo Tourism).
 </description>
                 
-                <pubDate>Sat, 06 Jun 2009 00:00:00 +0900</pubDate>
+                <pubDate>Sat, 06 Jun 2009 00:00:00 -0700</pubDate>
                 <link>http://sergeykarayev.com/virtual-zoom</link>
                 <guid isPermaLink="true">http://sergeykarayev.com/virtual-zoom</guid>
             </item>
